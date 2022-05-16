@@ -16,18 +16,18 @@
         android:text="@string/jalur_angkot"/>
 
     <Button
-        android:id="@+id/btn_halte_angkot"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:textSize="16sp"
-        android:layout_marginVertical="25dp"
-        android:text="@string/daftar_halte_yang_dilalui_angkot" />
-
-    <Button
         android:id="@+id/btn_angkot_halte"
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:textSize="16sp"
         android:layout_marginVertical="25dp"
         android:text="@string/daftar_angkot_yang_melewati_halte" />
+
+    <Button
+        android:id="@+id/btn_halte_angkot"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="16sp"
+        android:layout_marginVertical="25dp"
+        android:text="@string/daftar_halte_yang_dilalui_angkot" />
 </LinearLayout>

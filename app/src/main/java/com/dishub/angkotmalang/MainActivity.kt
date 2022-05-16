@@ -30,12 +30,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
 
             R.id.btn_halte_angkot -> {
-                val moveIntent = Intent(this@MainActivity, HalteAngkotActivity::class.java)
+                val moveIntent = Intent(this@MainActivity, AngkotHalteActivity::class.java)
                 startActivity(moveIntent)
             }
 
             R.id.btn_angkot_halte -> {
-                val moveIntent = Intent(this@MainActivity, AngkotHalteActivity::class.java)
+                val moveIntent = Intent(this@MainActivity, HalteAngkotActivity::class.java)
                 startActivity(moveIntent)
             }
         }

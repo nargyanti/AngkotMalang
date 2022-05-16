@@ -35,7 +35,7 @@ class AngkotHalteDetailActivity : AppCompatActivity() {
         tvKodeAngkot.text = kode_angkot
         tvNamaTrayek.text = nama_trayek
 
-        supportActionBar?.title = "Angkot yang Melewati Halte"
+        supportActionBar?.title = "Halte yang Dilalui Angkot"
 
         dbHandler = DatabaseHelper(this)
         showRecyclerList()

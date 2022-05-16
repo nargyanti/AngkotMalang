@@ -37,7 +37,7 @@ class HalteAngkotDetailActivity : AppCompatActivity() {
 
         dbHandler = DatabaseHelper(this)
 
-        supportActionBar?.title = "Halte yang Dilalui Angkot"
+        supportActionBar?.title = "Angkot yang Melewati Halte"
 
         showRecyclerList()
     }
