@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AngkotMalang</string>
+    <string name="id_angkot">ID Angkot</string>
+    <string name="kode_jalur">Pergi</string>
+    <string name="nama_jalan">Nama jalan</string>
+    <string name="nama_halte">Nama halte</string>
+    <string name="lokasi_halte">Lokasi halte</string>
+    <string name="title_activity_jalur_angkot_detail">JalurAngkotDetailActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="jalur_angkot">Jalur Angkot</string>
+    <string name="daftar_halte_yang_dilalui_angkot">Daftar Halte yang Dilalui Angkot</string>
+    <string name="daftar_angkot_yang_melewati_halte">Daftar Angkot yang Melewati Halte</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="urutan_jalur">10</string>
+</resources>
